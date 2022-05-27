@@ -4,9 +4,9 @@
 .box {
 	border-style: inset;
 	box-sizing: border-box;
-	
+    
 
-	
+
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -40,7 +40,7 @@
 .col-s-12 {width: 100%;}
    
 }
-[class*="col-s-"] {
+[class*="col-s"] {
 	float: left;    
 }
 @media only screen and(min-width: 700px) {
@@ -57,7 +57,7 @@
 .col-l-11 {width: 91.66%;}
 .col-l-12 {width: 100%;}
 }
-[class*="col-l-"] {
+[class*="col-l"] {
 	float: left;    
 }
 .boxLink ul {
